@@ -4,7 +4,17 @@
 
 # Plasmatic
 
-Plasmatic builds open-source payment infrastructure focused on high-performance, low-latency payment processing. We create auditable, production-ready engines and tooling so teams can operate reliable, auditable payment systems without vendor lock-in.
+Plasmatic builds open-source infrastructure for declarative, auditable business services — high-performance Rust engines and tooling that let teams ship reliable systems without vendor lock-in, from general-purpose service runtimes to payment message processing.
+
+## Orion
+
+Orion is an API-first declarative services runtime written in Rust. Instead of writing, containerizing, and operating a new microservice for every piece of business logic, you declare what the service should do as a JSON workflow and Orion runs it — governed REST & Kafka endpoints with built-in observability, validation, rate limiting, and AI safety rails, shipped as a single binary.
+
+- [Orion](https://github.com/GoPlasmatic/Orion) — the runtime: channels, workflows, connectors, one binary
+- [Orion UI](https://github.com/GoPlasmatic/Orion-ui) — operations console: dashboards, system map, traces
+- [Orion CLI](https://github.com/GoPlasmatic/Orion-cli) — terminal companion + 46-tool MCP server for AI assistants
+
+Documentation: https://goplasmatic.github.io/Orion/
 
 ## Reframe
 
